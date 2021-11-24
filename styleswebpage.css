@@ -1,0 +1,159 @@
+
+html, body {
+    max-width: 100%;
+    max-height: 100%;
+    overflow-x: hidden;
+    
+}
+.row {
+    display: flex;
+  }
+  
+.column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+.image {
+
+    display: inline-block;
+    text-align:center;
+    width: 33%;
+    
+}
+figure {
+    overflow: hidden;
+    margin: 0 10px;
+}
+.w-100{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+}
+.carousel{
+    padding-bottom:5% ;
+   
+
+}
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+.container2{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+/*our team*/
+section.our-team {
+    padding: 70px 0px;
+   
+    text-align: center;
+    color: #fff;
+}
+.our-team .member {
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+    transition: 0.4s;
+    border-radius: 100%;
+    border: 6px solid #ffffff;
+}
+.our-team h2 {
+    font-size: 36px;
+    color: #000000;
+    font-weight: normal;
+}
+.our-team p {
+    color: #9e9e9e;
+    width: 70%;
+    margin: 10px auto 10px;
+}
+.our-team .member:hover {
+    box-shadow: 0px 10px 0px 0px #485d79;
+}
+.our-team .member .member-info {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+}
+.our-team .member .member-detail {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+}
+.our-team .member .social {
+    position: absolute;
+    left: 0;
+    bottom: -38px;
+    right: 0;
+    height: 48px;
+    transition: bottom ease-in-out 0.4s;
+    text-align: center;
+}
+.our-team .member .social a {
+    margin: 0 10px;
+    display: inline-block;
+    color: #fff;
+}
+.our-team .member .social a:hover {
+    color: #cda45e;
+}
+.our-team .member .social i {
+    font-size: 18px;
+    margin: 0 2px;
+}
+.our-team .member:hover .member-info {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.83) 0%, rgba(0, 0, 0, 0.57) 20%, rgba(121, 85, 72, 0.09) 100%);
+    opacity: 1;
+    transition: 0.4s;
+}
+.our-team .member:hover .member-detail {
+    bottom: 80px;
+}
+.our-team .member:hover .social {
+    bottom: 10px;
+}
+footer .row {
+    position : relative ; 
+}
